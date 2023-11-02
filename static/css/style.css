@@ -3,14 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
- 
 }
 
 body {
     font-family: 'Google Sans', sans-serif;
     margin: 0;
     padding: 0;
-    
 }
 
 h1, h2 {
@@ -98,7 +96,6 @@ header nav ul li {
 /* Estilos do rodapé */
 footer {
     background-color: #32CD32;
-    
     padding: 30px;
     text-align: center;
     color: #fff;
@@ -111,7 +108,7 @@ footer p {
 
 /* Estilos do teste */
 #teste {
-    width: 600px;
+    width: 100%; /* Use a largura total do container */
     height: 300px;
     background-image: url('static/images/flyersite.png');
     background-position: center;
@@ -120,17 +117,72 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-}
-#teste {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
     margin: 30px auto;
-    padding: 20px;
 }
 
 #teste img {
     max-width: 100%;
     max-height: 100%;
+}
+
+/* Consultas de mídia para tornar o layout responsivo */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    header nav ul {
+        flex-direction: column; /* Alinhe os itens verticalmente */
+        text-align: center; /* Centralize o texto */
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Espaçamento entre os itens */
+    }
+
+    intro-section h2 {
+        font-size: 28px;
+    }
+
+    intro-section p {
+        font-size: 16px;
+    }
+
+    .white-rectangle {
+        max-width: 90%;
+    }
+
+    #teste {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header nav ul {
+        font-size: 18px;
+    }
+
+    intro-section h2 {
+        font-size: 24px;
+    }
+
+    intro-section p {
+        font-size: 14px;
+    }
+
+    .white-rectangle {
+        max-width: 80%;
+    }
+
+    #teste {
+        height: 150px;
+    }
 }
