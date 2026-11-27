@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herbarium Oriximiná • Fitoterapia Amazônica & Validação Científica</title>
+  <link rel="stylesheet" href="./static/css/app.css">
+</head>
+<body>
+  <!-- Header Glassmorphic Unificado -->
+  <header class="main-header">
+    <div class="nav-container">
+      <a href="./index.html" class="brand-logo">
+        <div class="brand-icon-box">
+          <svg class="svg-icon svg-icon-md" viewBox="0 0 24 24" fill="none" stroke="#047857" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+        </div>
+        <div class="brand-title-wrap">
+          <span class="brand-name">Herbarium Oriximiná</span>
+          <span class="brand-badge">Fitoterapia & Etnobotânica</span>
+        </div>
+      </a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="./index.html" class="nav-link active">Início</a></li>
+          <li><a href="./plants.html" class="nav-link">Catálogo Científico</a></li>
+          <li><a href="./vendedores.html" class="nav-link">Erveiros & Pontos</a></li>
+          <li><a href="./sobre.html" class="nav-link">Sobre a Plataforma</a></li>
+          <li><a href="./contato.html" class="nav-link">Contato Técnico</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Principal -->
+  <section style="padding: 60px 0 40px;">
+    <div class="container" style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 40px; align-items: center;">
+      <div>
+        <div class="badge-pill">
+          <svg class="svg-icon svg-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+          Flora Medicinal do Rio Trombetas • Oriximiná-PA
+        </div>
+        <h1 style="font-family: var(--font-serif); font-size: 46px; font-weight: 700; color: var(--primary-dark); line-height: 1.18; margin-bottom: 20px;">
+          Conhecimento Ancestral Amazônico com Rigor Farmacológico
+        </h1>
+        <p style="font-size: 17px; line-height: 1.7; color: var(--text-muted); margin-bottom: 28px;">
+          Explore a riqueza botânica de Oriximiná. Unimos a sabedoria tradicional dos povos ribeirinhos, indígenas e quilombolas às evidências da Farmacopeia Brasileira, da ANVISA e do SUS para um uso seguro, consciente e sustentável.
+        </p>
+        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a href="#catalogo-direto" class="btn btn-primary">
+            Consultar Catálogo Vivo
+            <svg class="svg-icon svg-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="./vendedores.html" class="btn btn-secondary">Comércio Tradicional</a>
+        </div>
+      </div>
+      <div>
+        <div style="background: #ffffff; border: 1px solid var(--surface-border); border-radius: var(--radius-lg); padding: 18px; box-shadow: var(--shadow-lg); animation: bannerFloat 4s ease-in-out infinite alternate;">
+          <img src="./static/img/flyersite.png" alt="Flora Medicinal de Oriximiná" style="border-radius: var(--radius-md); max-height: 360px; width: 100%; object-fit: cover;" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Métricas Rápidas -->
+  <section style="padding: 20px 0 50px;">
+    <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+      <div style="background: var(--surface); border: 1px solid var(--surface-border); border-radius: var(--radius-md); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+        <span style="font-family: var(--font-serif); font-size: 38px; font-weight: 700; color: var(--primary); display: block;">26</span>
+        <strong style="display: block; font-size: 15px; color: var(--text-main); margin-bottom: 4px;">Espécies Catalogadas</strong>
+        <span style="font-size: 13px; color: var(--text-muted);">Com marcadores fitoquímicos</span>
+      </div>
+      <div style="background: var(--surface); border: 1px solid var(--surface-border); border-radius: var(--radius-md); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+        <span style="font-family: var(--font-serif); font-size: 38px; font-weight: 700; color: var(--primary); display: block;">ANVISA</span>
+        <strong style="display: block; font-size: 15px; color: var(--text-main); margin-bottom: 4px;">Validação Sanitária</strong>
+        <span style="font-size: 13px; color: var(--text-muted);">Farmacopeia Brasileira & Memento</span>
+      </div>
+      <div style="background: var(--surface); border: 1px solid var(--surface-border); border-radius: var(--radius-md); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+        <span style="font-family: var(--font-serif); font-size: 38px; font-weight: 700; color: var(--primary); display: block;">SUS</span>
+        <strong style="display: block; font-size: 15px; color: var(--text-main); margin-bottom: 4px;">Fitoterapia PNPIC</strong>
+        <span style="font-size: 13px; color: var(--text-muted);">Relação RENAME oficial</span>
+      </div>
+      <div style="background: var(--surface); border: 1px solid var(--surface-border); border-radius: var(--radius-md); padding: 24px; text-align: center; box-shadow: var(--shadow-sm);">
+        <span style="font-family: var(--font-serif); font-size: 38px; font-weight: 700; color: var(--primary); display: block;">100%</span>
+        <strong style="display: block; font-size: 15px; color: var(--text-main); margin-bottom: 4px;">Preservação Cultural</strong>
+        <span style="font-size: 13px; color: var(--text-muted);">Rio Trombetas e Baixo Amazonas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo Interativo Direto na Página Principal -->
+  <section id="catalogo-direto" style="padding: 40px 0 70px;">
+    <div class="container">
+      <div style="text-align: center; max-width: 720px; margin: 0 auto 35px;">
+        <span style="font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; color: var(--primary);">Acervo Fitoquímico Vivo</span>
+        <h2 style="font-family: var(--font-serif); font-size: 36px; color: var(--primary-dark); margin-bottom: 10px;">Consulte as Espécies de Oriximiná</h2>
+        <p style="color: var(--text-muted); font-size: 16px;">Pesquise em tempo real por nome popular, nome científico, princípio ativo ou sintoma clínico.</p>
+      </div>
+
+      <!-- Engine de Busca e Filtros -->
+      <div class="search-filter-card">
+        <div class="search-primary-row">
+          <div class="search-field">
+            <span class="search-field-icon">
+              <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.3-4.3"/>
+              </svg>
+            </span>
+            <input type="text" id="plant-search" placeholder="Busque por planta, marcador ou indicação (ex: andiroba, cumarina, azia, ansiedade)...">
+            <button id="clear-search" class="btn-clear-search" style="display: none;" title="Limpar">&times;</button>
+          </div>
+          <div class="select-wrapper">
+            <select id="system-filter">
+              <option value="all">Todos os Sistemas Corporais</option>
+              <option value="Digestivo">Sistema Digestivo & Hepático</option>
+              <option value="Nervoso">Sistema Nervoso & Psíquico</option>
+              <option value="Respiratório">Sistema Respiratório & Pulmonar</option>
+              <option value="Imunológico">Sistema Imunológico & Articular</option>
+              <option value="Dermatológico">Dermatológico & Cicatrização</option>
+              <option value="Metabólico">Metabólico & Cardiovascular</option>
+              <option value="Urogenital">Urogenital & Renal</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="chips-container">
+          <span class="chips-title">Classes Terapêuticas:</span>
+          <button class="chip-btn active" data-filter="all">Todas as 26 Plantas</button>
+          <button class="chip-btn" data-filter="calmante">Calmantes & Sedativas</button>
+          <button class="chip-btn" data-filter="inflamat">Anti-inflamatórias</button>
+          <button class="chip-btn" data-filter="digest">Digestivas & Hepáticas</button>
+          <button class="chip-btn" data-filter="respirat">Respiratórias & Pulmonares</button>
+          <button class="chip-btn" data-filter="cicatriz">Cicatrizantes</button>
+          <button class="chip-btn" data-filter="energia">Tônicas & Energéticas</button>
+        </div>
+
+        <div class="search-meta-bar">
+          <span id="plants-counter" class="results-count">Carregando acervo fitoterápico...</span>
+          <span class="validation-tag-seal">
+            <svg class="svg-icon svg-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            Referências Oficiais: ANVISA, Farmacopeia Brasileira & RENAME (SUS)
+          </span>
+        </div>
+      </div>
+
+      <!-- Grid de Cards de Plantas -->
+      <div id="plants-grid" class="plants-cards-grid"></div>
+
+      <!-- Vazio -->
+      <div id="no-results" style="display: none; text-align: center; padding: 60px 20px; background: #fff; border-radius: var(--radius-lg); border: 1px solid var(--surface-border); box-shadow: var(--shadow-sm);">
+        <svg class="svg-icon svg-icon-hero" style="color: var(--primary); margin-bottom: 14px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+        <h3 style="font-size: 20px; color: var(--text-main); margin-bottom: 8px;">Nenhuma espécie correspondente encontrada</h3>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">Tente pesquisar por termos como "tosse", "sono", "estômago" ou pelo nome comum da planta.</p>
+        <button id="reset-filter-btn" class="btn btn-primary">Restaurar filtros de busca</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pilares de Saúde e Segurança -->
+  <section style="padding: 20px 0 70px;">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, #064e3b 0%, #047857 100%); border-radius: var(--radius-lg); padding: 45px; color: #ffffff; box-shadow: var(--shadow-lg);">
+        <div class="badge-pill" style="background: rgba(255, 255, 255, 0.2); color: #fff; border-color: rgba(255, 255, 255, 0.3);">
+          <svg class="svg-icon svg-icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          Segurança Sanitária & Fitoterapia Racional
+        </div>
+        <h2 style="font-family: var(--font-serif); font-size: 34px; line-height: 1.25; margin-bottom: 16px;">
+          Por que a orientação farmacológica é essencial?
+        </h2>
+        <p style="font-size: 16px; line-height: 1.7; color: #e2e8f0; margin-bottom: 20px;">
+          O mito popular de que <em>"produto natural não faz mal"</em> gera sérios riscos de intoxicação. Muitas espécies amazônicas contêm princípios ativos altamente concentrados que exigem cautela:
+        </p>
+        <ul style="list-style: none; margin-bottom: 24px;">
+          <li style="font-size: 15px; margin-bottom: 12px; padding-left: 32px; position: relative;">
+            <svg class="svg-icon" style="position: absolute; left: 0; top: 3px; color: #fecdd3;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <strong>Interação Medicamentosa:</strong> A Erva de São João (*Hypericum perforatum*) acelera a degradação hepática de anticoncepcionais, anticoagulantes e antirretrovirais.
+          </li>
+          <li style="font-size: 15px; margin-bottom: 12px; padding-left: 32px; position: relative;">
+            <svg class="svg-icon" style="position: absolute; left: 0; top: 3px; color: #fecdd3;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <strong>Toxicologia de Dosagem:</strong> A Arruda e o Cipó Mil Homens contêm toxinas celulares que não devem ser ingeridas indiscriminadamente.
+          </li>
+          <li style="font-size: 15px; margin-bottom: 12px; padding-left: 32px; position: relative;">
+            <svg class="svg-icon" style="position: absolute; left: 0; top: 3px; color: #fecdd3;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <strong>Riscos Gestacionais:</strong> Plantas com ação emenagoga e abortiva (como o Anamu) são rigorosamente proibidas na gestação e lactação.
+          </li>
+        </ul>
+        <div style="background: rgba(255, 255, 255, 0.12); padding: 18px 22px; border-radius: var(--radius-sm); border-left: 4px solid #fef08a; color: #fef9c3; font-size: 14px;">
+          Nossa plataforma combate a desinformação promovendo o <strong>conhecimento farmacológico aberto</strong>, auxiliando a população e profissionais de saúde da atenção primária.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Farmacológico Completo -->
+  <div id="plant-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-window">
+      <button class="modal-close-trigger" id="modal-close" title="Fechar">&times;</button>
+      <div id="modal-body">
+        <!-- Renderizado dinamicamente via main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Unificado -->
+  <footer class="main-footer">
+    <div class="container footer-top-grid">
+      <div class="footer-brand-col">
+        <svg class="svg-icon svg-icon-xl" style="color: #6ee7b7; margin-bottom: 8px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+        <h3>Herbarium Oriximiná</h3>
+        <p>Iniciativa independente dedicada ao resgate botânico, sistematização fitoquímica e educação em fitoterapia responsável sobre as plantas medicinais de Oriximiná, Pará.</p>
+      </div>
+      <div class="footer-health-notice">
+        <h4>
+          <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          Aviso de Responsabilidade Médica
+        </h4>
+        <p>O conteúdo desta plataforma tem finalidade estritamente educativa, cultural e de preservação da memória botânica. Não substitui o diagnóstico clínico, a prescrição médica ou o atendimento em Unidades Básicas de Saúde (SUS). Consulte sempre um profissional de saúde habilitado.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom-line">
+      <p>&copy; 2026 Herbarium Oriximiná. Plataforma idealizada e desenvolvida por <strong>Felipe Monteiro</strong> e <strong>Erison Lins</strong>. Licença de Código Aberto MIT.</p>
+    </div>
+  </footer>
+
+  <script src="./static/js/main.js"></script>
+</body>
+</html>
