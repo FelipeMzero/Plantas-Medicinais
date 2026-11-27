@@ -45,7 +45,6 @@ O **Herbarium Oriximiná** foi reimaginado e reconstruído para transformar esse
 * **Sandyella Silva Soares:** Desenvolvedora da Primeira Implantação
   * Concepção, estruturação e desenvolvimento da primeira versão e implementação inicial do projeto.
 * **Erison Lins:** Consultor
-  * Design de interfaces (UI/UX), implementação do Design System com fontes `Plus Jakarta Sans` e `Fraunces`, criação de animações CSS nativas e responsividade fluida.
 
 ---
 
