@@ -44,7 +44,7 @@ O **Herbarium Oriximiná** foi reimaginado e reconstruído para transformar esse
   * Engenharia de software, modelagem dos dados botânicos estruturados (CSV), arquitetura assíncrona com Fetch API e curadoria científica dos princípios ativos.
 * **Sandyella Silva Soares:** Desenvolvedora da Primeira Implantação
   * Concepção, estruturação e desenvolvimento da primeira versão e implementação inicial do projeto.
-* **Erison Lins:** Idealizador e Desenvolvedor da Plataforma
+* **Erison Lins:** Consultor
   * Design de interfaces (UI/UX), implementação do Design System com fontes `Plus Jakarta Sans` e `Fraunces`, criação de animações CSS nativas e responsividade fluida.
 
 ---
@@ -68,7 +68,7 @@ A concepção e estruturação do **Herbarium Oriximiná** foram fundamentadas n
 * **Justificativa:** Risco de esquecimento do saber botânico do Rio Trombetas e perigos sanitários da automedicação sem respaldo científico.
 * **Objetivo SMART:** Desenvolver uma plataforma web estática de alta velocidade catalogando 26 espécies nativas com validação técnica em saúde e diretório local.
 * **Benefícios:** Educação em saúde pública, preservação da memória sociocultural amazônica e estímulo à economia da sociobiodiversidade.
-* **Equipe:** Felipe Monteiro (Idealizador & Dev), Sandyella Silva Soares (Dev 1ª Implantação) e Erison Lins (Idealizador & Dev).
+* **Equipe:** Felipe Monteiro (Idealizador & Dev), Sandyella Silva Soares (Dev 1ª Implantação) e Erison Lins (Consultor).
 * **Custos:** R$ 0,00 diretos (GitHub Pages, Google Fonts, W3C Web Standards).
 * **Gestão:** Abordagem Ágil (Scrum/Kanban) com iterações contínuas e entrega incremental.
 
@@ -157,4 +157,4 @@ Distribuído sob os termos da licença **MIT**. Consulte o arquivo [LICENSE](LIC
 
 ---
 
-*Idealizado e desenvolvido com compromisso à Amazônia por **Felipe Monteiro**, **Sandyella Silva Soares** e **Erison Lins**.*
+*Idealizado e desenvolvido com compromisso à Amazônia por **Felipe Monteiro** e **Sandyella Silva Soares**, com consultoria de **Erison Lins**.*
